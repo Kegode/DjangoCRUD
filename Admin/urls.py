@@ -22,5 +22,8 @@ from Admin import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.admin, name='admin'),
-    path('add_item/', views.add_item, name='add_item')
+    path('add_item/', views.add_item, name='add_item'),
+  path('delete_item/<int:product_id>/', views.delete_item, name='delete_item'),
+  path('update_item/<int:product_id>/', views.update_item, name='update_item'),
+    path('mpesa_pay/', views.mpesa_pay, name='mpesa_pay'),
 ]
