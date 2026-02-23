@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Admin'
+    'Admin',
+    'django_daraja'
 ]
 
 MIDDLEWARE = [
@@ -124,3 +125,12 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+MPESA_ENVIRONMENT = 'sandbox'
+MPESA_CONSUMER_KEY = 'XmUvteWNs2bVe6XVCFDXIBhW8eqrUWZfpShhA602qIMGKkKZ'
+MPESA_CONSUMER_SECRET = 'tEJ3NdrrrK3IS6AilA01m9bNm47a3aVPldroc4iR48j2ZQ4xdTLyO3trjyIXBtS2'
+MPESA_EXPRESS_SHORTCODE = '174379'
+MPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'
+INITIATOR_NAME = 'testapi'
+SECURITY_CREDENTIAL = 'Safaricom123!!'
+B2C_SHORTCODE = '174379'
